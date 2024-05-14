@@ -1,0 +1,208 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* Estilos del contenedor */
+.ofertas-container, .festival-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+  }
+  .festival-container{
+    background-color:#ffc107d0;
+  }
+  /* Estilos de la sección */
+  .ofertas-section, .festival-section {
+    max-width: 100%; 
+    width: 90%; 
+    text-align: center; 
+    margin:5px 0px;
+  }
+  
+  /* Estilos del título */
+  .ofertas-title, .festival-title {
+    font-size: 24px; 
+    font-weight: bold; 
+    font-family: "Poppins", sans-serif;
+    color:#05037c; 
+    margin: 0; 
+  }
+  img.d-block.w-100{
+    height:450px;
+  }
+  .nav-link{
+    color:#05037c;
+   font-family: "Poppins", sans-serif;
+  }
+  .promociones {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    padding: 10px 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .promo_link {
+    color: #05037c;
+    text-decoration: none !important;
+    padding: 10px;
+    margin: 5px; 
+    transition: background-color 0.3s ease;
+    display: flex; 
+    align-items: center;
+  }
+  
+  .promo_link img {
+    width: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .promo_link {
+      font-size: 0.8em; 
+    }
+  }
+  
+  .alimentos{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+  }
+  .alimentos-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap;
+    padding: 20px; 
+  }
+  
+  
+  .alimento-img {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    margin: 10px; 
+  }
+  .card_conteiner {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+  
+  .card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .product-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-weight: bold;
+  }
+  
+  .btn-add-to-cart {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .btn-add-to-cart:hover {
+    background-color: #0056b3;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-column {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-column h5 {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+  }
+  
+  .contact-info,
+  .services {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-info li,
+  .services li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom {
+    background-color: #ffc107;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .ofertas-title, .festival-title {
+      font-size: 18px; 
+    }
+    img.d-block.w-100{
+      height: 250px;
+    }
+    .promo_link img{
+      width: 100px;
+    }
+    .alimento-img{
+      width: 100px; 
+    height: 100px;
+    }
+    
+  }
