@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const formulario = document.getElementById("formulario-contacto");
 
   formulario.addEventListener("submit", function (event) {
-    event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+    event.preventDefault(); 
 
     // Validar los campos
     const nombre = document.getElementById("nombre").value;
@@ -24,17 +24,15 @@ document.addEventListener("DOMContentLoaded", function () {
       showConfirmButton: false,
       timer: 3500,
     });
-    formulario.reset(); // Reiniciar el formulario
+    formulario.reset(); 
   });
   const addToCartButtons = document.querySelectorAll(".btn-add-to-cart");
 
-  // Iterar sobre cada botón y agregar un event listener
+ 
   addToCartButtons.forEach(function (button) {
     button.addEventListener("click", function () {
-      // Obtener el elemento que muestra la cantidad en el carrito
       const cartItemCount = document.querySelector(".badge");
 
-      // Obtener la cantidad actual en el carrito y sumarle uno
       const currentCount = parseInt(cartItemCount.innerText);
       const newCount = currentCount + 1;
       Toastify({
@@ -85,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
           break;
       }
 
-      // Mostrar la alerta personalizada
       Swal.fire({
         title: alertTitle,
         text: alertText,
