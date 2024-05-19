@@ -23,95 +23,99 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./src/style/style_index.css" />
     <title>Pet Shop</title>
   </head>
   <body>
-    <div class="festival-container">
-      <section class="festival-section">
-        <h1 class="festival-title animate__animated animate__zoomIn">
-          <i class="fa-solid fa-paw" style="color: #fafafa"></i> Un festival de
-          Pelos <i class="fa-solid fa-paw" style="color: #fafafa"></i> Mirá el
-          LINE UP de todo Abril
-          <i class="fa-solid fa-paw" style="color: #fafafa"></i>
-        </h1>
-      </section>
-    </div>
-    <nav class="navbar navbar-expand-lg bg-warning">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <i class="fa-solid fa-shield-dog fa-2xl" style="color: #05037c">
-            AnimalHub</i
-          >
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <br>
-            <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Buscar Alimentos, marcas, mascotas..."
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-                </button>
-              </form>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Mascotas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Marcas</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Servicios
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Peluqueria</a></li>
-                <li><a class="dropdown-item" href="#">Veterinaria</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Adopciones</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-warning position-relative">
-                <i
-                  class="fa-solid fa-cart-shopping fa-lg"
-                  style="color: #ffffff"
-                ></i>
-                <span
-                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                >
-                  0+
-                </span>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <main>
-
-   
+    <section id="inicio">
+      <div class="festival-container">
+        <section class="festival-section">
+          <h1 class="festival-title animate__animated animate__zoomIn">
+            <i class="fa-solid fa-paw" style="color: #fafafa"></i> Un festival de
+            Pelos <i class="fa-solid fa-paw" style="color: #fafafa"></i> Mirá el
+            LINE UP de todo Abril
+            <i class="fa-solid fa-paw" style="color: #fafafa"></i>
+          </h1>
+        </section>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-shield-dog fa-2xl" style="color: #05037c">
+              AnimalHub</i
+            >
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <br>
+              <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Buscar Alimentos, marcas, mascotas..."
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                  </button>
+                </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#productos">Marcas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#servicios">Peluqueria</a></li>
+                  <li><a class="dropdown-item" href="#servicios">Veterinaria</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#servicios">Adopciones</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-warning position-relative">
+                  <i
+                    class="fa-solid fa-cart-shopping fa-lg"
+                    style="color: #ffffff"
+                  ></i>
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                  >
+                    0+
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
     <div class="ofertas-container">
       <section class="ofertas-section">
         <h3 class="ofertas-title animate__animated animate__zoomIn">
@@ -175,12 +179,39 @@
         <a href="#" class="promo_link"><img src="https://getlogovector.com/wp-content/uploads/2023/12/mercado-pago-logo-vector-2023.png" alt="Mercadopago" /></a>
         <a href="#" class="promo_link">Envios <i class="fa-solid fa-truck fa-2xl"></i></a>
     </div>
-    <div>
-        <section class="alimentos">
-            <h3>Favoritos para tu mascota</h3>
-        </section>
-        
-    </div>
+    </section>
+
+    <section id="servicios">
+      <div class="title_servicios">
+        <h3>Servicios</h3>
+      </div>
+      <div class="servicios-container">
+        <div class="servicio">
+          <img src="https://www.clinicaveterinariamh.com/wp-content/uploads/2023/08/45.jpg" alt="Peluquería" class="servicio-img">
+          <h3>Peluquería</h3>
+          <p>Nuestro servicio de peluquería para mascotas está diseñado para dejar a tu compañero peludo luciendo su mejor aspecto. Nuestros estilistas caninos son expertos en cortes de pelo adaptados a cada raza y estilo, asegurando que tu mascota se sienta cómoda y feliz durante todo el proceso.</p>
+          <button class="btn-servicio btn-servicio-peluqueria">Más información</button>
+        </div>
+        <div class="servicio">
+          <img src="https://facultades.unab.cl/cienciasdelavida/wp-content/uploads/2022/02/AdobeStock_107432576-scaled.jpeg" alt="Veterinaria" class="servicio-img">
+          <h3>Veterinaria</h3>
+          <p>Nuestro equipo veterinario altamente calificado ofrece una amplia gama de servicios médicos para garantizar la salud y el bienestar de tu mascota. Desde consultas de rutina hasta tratamientos especializados, estamos aquí para proporcionar la atención veterinaria excepcional que tu mascota merece.</p>
+          <button class="btn-servicio btn-servicio-veterinaria">Más información</button>
+        </div>
+        <div class="servicio">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRmGHTZouh8CIFlaZW09IQH_qg2Yb5Mk_31UpiSUQ83Q&s" alt="Adopciones" class="servicio-img">
+          <h3>Adopciones</h3>
+          <p>Nuestro programa de adopción de mascotas ofrece una oportunidad para que perros y gatos abandonados encuentren un hogar amoroso y permanente. Si estás buscando un nuevo compañero peludo, visita nuestro refugio y conoce a las adorables mascotas que están esperando ser adoptadas.</p>
+          <button class="btn-servicio btn-servicio-adopciones">Más información</button>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id="productos">
+      <div class="title_favoritos">
+        <h3>Favoritos para tu mascota</h3>
+      </div>
     <div class="alimentos-container">
         <img src="https://assets.isu.pub/document-structure/221026140241-118573f753a5b5e94f19d946c6233738/v1/92d9604fbe1275bd9c35477b53f74890.jpeg" alt="Imagen 1" class="alimento-img">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmKkMtSm3h6JA-PaJNQOiewoTXwcHkpg5EcmAyZakrFA&s" alt="Imagen 2" class="alimento-img">
@@ -189,16 +220,16 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUK6MzeCgBdG66xni3kY_jFTgM0ywmlXe_0shsR4dtoQ&s" alt="Imagen 5" class="alimento-img">
       </div>
       <div>
-        <section class="alimentos">
+        <div class="title_productos">
             <h3>Productos</h3>
-        </section>
+        </div>
     </div>
-      <div class="card_conteiner">
+      <div class="card_container">
       <div class="card">
         <img src="https://vitalcan.com/wp-content/uploads/2021/04/envase-complete-perro-adulto-raza-grande-@2x-vitalca.png" alt="Producto">
         <div class="card-body">
-          <h3 class="product-title">Nombre del Producto</h3>
-          <p class="product-description">Descripción corta del producto.</p>
+          <h3 class="product-title">Vitalcan Complete Adulto</h3>
+          <p class="product-description">Alimento para Perros Adultos</p>
           <span class="product-price">$25000</span>
           <button class="btn-add-to-cart">Añadir al carrito</button>
         </div>
@@ -207,16 +238,16 @@
       <div class="card">
         <img src="https://vitalcan.com/wp-content/uploads/2021/04/envase-complete-perro-adulto-raza-grande-@2x-vitalca.png" alt="Producto">
         <div class="card-body">
-          <h3 class="product-title">Nombre del Producto</h3>
-          <p class="product-description">Descripción corta del producto.</p>
+          <h3 class="product-title">Vitalcan Complete Adulto</h3>
+          <p class="product-description">Alimento para Perros Adultos</p>
           <span class="product-price">$25000</span>
           <button class="btn-add-to-cart">Añadir al carrito</button>
         </div>
       </div> <div class="card">
         <img src="https://vitalcan.com/wp-content/uploads/2021/04/envase-complete-perro-adulto-raza-grande-@2x-vitalca.png" alt="Producto">
         <div class="card-body">
-          <h3 class="product-title">Nombre del Producto</h3>
-          <p class="product-description">Descripción corta del producto.</p>
+          <h3 class="product-title">Vitalcan Complete Adulto</h3>
+          <p class="product-description">Alimento para Perros Adultos</p>
           <span class="product-price">$25000</span>
           <button class="btn-add-to-cart">Añadir al carrito</button>
         </div>
@@ -224,8 +255,8 @@
       <div class="card">
         <img src="https://vitalcan.com/wp-content/uploads/2021/04/envase-complete-perro-adulto-raza-grande-@2x-vitalca.png" alt="Producto">
         <div class="card-body">
-          <h3 class="product-title">Nombre del Producto</h3>
-          <p class="product-description">Descripción corta del producto.</p>
+          <h3 class="product-title">Vitalcan Complete Adulto</h3>
+          <p class="product-description">Alimento para Perros Adultos</p>
           <span class="product-price">$25000</span>
           <button class="btn-add-to-cart">Añadir al carrito</button>
         </div>
@@ -233,8 +264,8 @@
       <div class="card">
         <img src="https://vitalcan.com/wp-content/uploads/2021/04/envase-complete-perro-adulto-raza-grande-@2x-vitalca.png" alt="Producto">
         <div class="card-body">
-          <h3 class="product-title">Nombre del Producto</h3>
-          <p class="product-description">Descripción corta del producto.</p>
+          <h3 class="product-title">Vitalcan Complete Adulto</h3>
+          <p class="product-description">Alimento para Perros Adultos</p>
           <span class="product-price">$25000</span>
           <button class="btn-add-to-cart">Añadir al carrito</button>
         </div>
@@ -242,8 +273,8 @@
       <div class="card">
         <img src="https://vitalcan.com/wp-content/uploads/2021/04/envase-complete-perro-adulto-raza-grande-@2x-vitalca.png" alt="Producto">
         <div class="card-body">
-          <h3 class="product-title">Nombre del Producto</h3>
-          <p class="product-description">Descripción corta del producto.</p>
+          <h3 class="product-title">Vitalcan Complete Adulto</h3>
+          <p class="product-description">Alimento para Perros Adultos</p>
           <span class="product-price">$25000</span>
           <button class="btn-add-to-cart">Añadir al carrito</button>
         </div>
@@ -251,38 +282,93 @@
       <div class="card">
         <img src="https://vitalcan.com/wp-content/uploads/2021/04/envase-complete-perro-adulto-raza-grande-@2x-vitalca.png" alt="Producto">
         <div class="card-body">
-          <h3 class="product-title">Nombre del Producto</h3>
-          <p class="product-description">Descripción corta del producto.</p>
+          <h3 class="product-title">Vitalcan Complete Adulto</h3>
+          <p class="product-description">Alimento para Perros Adultos</p>
           <span class="product-price">$25000</span>
           <button class="btn-add-to-cart">Añadir al carrito</button>
         </div>
       </div>
     </div>
+  </section>
+  <section id="contacto">
+    <div class="title_contacto">
+      <h3>Contacto</h3>
+    </div>
+    <div class="formulario">
+      <form id="formulario-contacto">
+        <div class="form-group">
+          <label for="nombre">* Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">* Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="telefono">* Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">* Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="motivo">* Motivo de contacto:</label>
+          <select id="motivo" name="motivo" required>
+            <option value="">Selecciona un motivo</option>
+            <option value="Consulta">Consulta</option>
+            <option value="Productos">Productos</option>
+            <option value="Adopciones">Adopciones</option>
+            <option value="Veterinaria">Veterinaria</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="interes">Interesado en:</label>
+          <input type="checkbox" id="perro" name="interes" value="Perro">
+          <label for="perro">Perro</label>
+          <input type="checkbox" id="gato" name="interes" value="Gato">
+          <label for="gato">Gato</label>
+          <input type="checkbox" id="otro" name="interes" value="Otro">
+          <label for="otro">Otro</label>
+        </div>
+        <div class="form-group">
+          <label for="imagen">Adjuntar imagen:</label>
+          <input type="file" id="imagen" name="imagen" accept="image/*">
+        </div>
+        <div>
+          <h6>*Campos obligatorios</h6>
+        </div>
+        <button class="button_formulario" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-column">
           <h5>Redes Sociales</h5>
           <ul class="social-icons">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
           </ul>
+          
         </div>
         <div class="footer-column">
           <h5>Contacto</h5>
           <ul class="contact-info">
             <li><i class="fas fa-envelope"></i> info@animalhub.com</li>
-            <li><i class="fas fa-phone"></i> +123 456 7890</li>
-            <li><i class="fas fa-map-marker-alt"></i> Dirección, Ciudad, País</li>
+            <li><i class="fas fa-phone"></i> +5491125252525</li>
+            <li><i class="fas fa-map-marker-alt"></i> Ciudad Autonoma de Buenos Aires, Buenos Aires, Argentina</li>
           </ul>
         </div>
         <div class="footer-column">
           <h5>Nuestros Servicios</h5>
           <ul class="services">
-            <li><a href="#">Peluquería</a></li>
-            <li><a href="#">Veterinaria</a></li>
-            <li><a href="#">Adopciones</a></li>
+            <li>Peluquería</li>
+            <li>Veterinaria</li>
+            <li>Adopciones</li>
           </ul>
         </div>
       </div>
@@ -292,6 +378,9 @@
     </footer>
     
 </main>
+  <script src="./src/js/formulario.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

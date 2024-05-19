@@ -66,6 +66,88 @@
       font-size: 0.8em; 
     }
   }
+  /* Estilos para la sección de servicios */
+
+#servicios {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.servicios-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servicio {
+  width: calc(33.33% - 20px);
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.servicio:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.servicio-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.servicio h3 {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+.servicio p {
+  color: #666;
+  margin: 0 20px 20px;
+  text-align: justify;
+}
+
+.btn-servicio-veterinaria , .btn-servicio-peluqueria,.btn-servicio-adopciones {
+  padding: 10px 20px;
+  background-color: #05037c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-servicio:hover {
+  background-color: #180c6e;
+}
+
+.title_contacto, .title_servicios , .title_favoritos, .title_productos {
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+}
+/* Media query para hacer responsive */
+
+@media screen and (max-width: 1024px) {
+  .servicio {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .servicio {
+    width: calc(100% - 20px);
+  }
+}
+
   
   .alimentos{
     padding: 20px;
@@ -87,7 +169,7 @@
     border-radius: 50%; 
     margin: 10px; 
   }
-  .card_conteiner {
+  .card_container {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
@@ -137,6 +219,74 @@
   .btn-add-to-cart:hover {
     background-color: #0056b3;
   }
+  /* Estilos para la sección de contacto */
+#contacto {
+  padding: 50px 0;
+}
+
+#contacto h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group select {
+  padding: 10px 30px 10px 10px;
+}
+
+.form-group input[type="file"] {
+  padding: 10px;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.button_formulario{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button_formulario:hover {
+  background-color: #45a049;
+}
+
   .footer {
     background-color: #333;
     color: #fff;
