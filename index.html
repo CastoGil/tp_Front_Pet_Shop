@@ -29,6 +29,7 @@
       href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
     />
     <link rel="stylesheet" href="./src/style/style_index.css" />
+    <link rel="stylesheet" href="./src/style/style_adopcion.css" />
     <title>Pet Shop</title>
   </head>
   <body>
@@ -48,7 +49,8 @@
         <nav class="navbar navbar-expand-lg bg-warning">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <i class="fa-solid fa-shield-dog fa-2xl" style="color: #05037c">AnimalHub</i
+              <i class="fa-solid fa-shield-dog fa-2xl" style="color: #05037c"
+                >AnimalHub</i
               >
             </a>
             <button
@@ -106,7 +108,7 @@
                     </li>
                     <li><hr class="dropdown-divider" /></li>
                     <li>
-                      <a class="dropdown-item" href="#servicios">Adopciones</a>
+                      <a class="dropdown-item" href="#adopcion">Adopciones</a>
                     </li>
                   </ul>
                 </li>
@@ -403,7 +405,15 @@
           </div>
         </div>
       </section>
-      
+      <section id="adopcion">
+        <div class="maincontent">
+          <div class="title_adopcion">
+            <h3>Adopciones</h3>
+          </div>
+          <div id="grid" class="imgrid"></div>
+        </div>
+      </section>
+
       <section id="contacto">
         <div class="title_contacto">
           <h3>Contacto</h3>
@@ -522,6 +532,7 @@
       </footer>
     </main>
     <script src="./src/js/formulario.js"></script>
+    <script src="./src/js/apiCats.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script
       type="text/javascript"
